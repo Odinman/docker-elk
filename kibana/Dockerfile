@@ -1,9 +1,5 @@
 # https://github.com/elastic/kibana-docker
-<<<<<<< HEAD
-FROM docker.elastic.co/kibana/kibana:5.6.3
-=======
-FROM docker.elastic.co/kibana/kibana-oss:6.1.0
->>>>>>> master
+FROM docker.elastic.co/kibana/kibana-x-pack:6.2.3
 
 # Add your kibana plugins setup here
 # Example: RUN kibana-plugin install <name|url>
